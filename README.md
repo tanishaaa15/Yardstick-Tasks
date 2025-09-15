@@ -31,7 +31,7 @@ Task 1: Conversation Management & Summarization
 - Summaries after each trigger
 
 Task 2: JSON Schema Classification & Extraction
-- Defines a strict JSON schema to classify and extract: Name, Email, Phone, Location, Age
+- Defines a strict JSON schema to classify and extract:Name, Email, Phone, Location, Age
 
 - Uses Groq API (OpenAI function/tool calling) to extract structured JSON from chats.
 
@@ -41,8 +41,7 @@ Task 2: JSON Schema Classification & Extraction
 
 ## Requirements
 - Python 3.x recommended.
-- Groq API key (ensure you have access to tool-calling models like llama-3.3-70b-tool-use).
-
+- Groq API key
 
 ## Visible Outputs
 Task 1 displays the conversation history after each input, showing where truncation and summarization occur.
