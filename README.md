@@ -8,7 +8,7 @@ This notebook implements two core tasks using the Groq API with OpenAI SDK compa
 
 The goal is to demonstrate conversational state management, periodic summarization, and structured information extraction—strictly using standard Python and the Groq API client, without frameworks.
 
-# Features
+## Features
 Task 1: Conversation Management & Summarization
 - Maintains complete user–assistant conversation history.
 
@@ -31,17 +31,7 @@ Task 1: Conversation Management & Summarization
 - Summaries after each trigger
 
 Task 2: JSON Schema Classification & Extraction
-- Defines a strict JSON schema to classify and extract:
-
-Name
-
-Email
-
-Phone
-
-Location
-
-Age
+- Defines a strict JSON schema to classify and extract: Name, Email, Phone, Location, Age
 
 - Uses Groq API (OpenAI function/tool calling) to extract structured JSON from chats.
 
@@ -49,12 +39,12 @@ Age
 
 - Demonstrates with three diverse example chats.
 
-# Requirements
+## Requirements
 - Python 3.x recommended.
 - Groq API key (ensure you have access to tool-calling models like llama-3.3-70b-tool-use).
 
 
-# Visible Outputs
+## Visible Outputs
 Task 1 displays the conversation history after each input, showing where truncation and summarization occur.
 
 Task 2 prints parsed JSON and validation for each chat, highlighting any extraction or format errors.
